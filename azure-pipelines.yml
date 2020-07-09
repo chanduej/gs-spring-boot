@@ -77,5 +77,5 @@ stages:
             inputs:
               azureSubscription: 'Visual Studio Professional Subscription(92f8fe9b-159b-4794-813d-4e41f1ac9ced)'
               appType: 'webAppLinux'
-              appName: '$(webAppName)'
+              appName: 'Java-SpringBoot-Maven'
               package: '$(System.ArtifactsDirectory)/drop/**/target/*.?(war|jar)'
